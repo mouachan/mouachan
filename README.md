@@ -18,12 +18,13 @@ I help organizations adopt and operationalize AI/ML solutions on OpenShift AI. M
 
 ## Featured Projects
 
-### Agentic AI & LLM
+### Agentic AI, LLM & Multimodal
 
 | Project | Description |
 |---|---|
 | [agentic-claim-demo](https://github.com/mouachan/agentic-claim-demo) | Autonomous insurance claims processing using ReAct agents on OpenShift AI. Llama 3.3 70B + Gemma embeddings + pgvector + TrustyAI guardrails. Full reasoning traces, confidence scoring, and human-in-the-loop review. |
 | [edg-rag-demo](https://github.com/mouachan/edg-rag-demo) | Enterprise RAG deployment on OpenShift with KServe. Mistral 3 14B + Gemma 3 embeddings on NVIDIA L40 GPUs, with automated model lifecycle management. |
+| [multimodal-deployment](https://github.com/mouachan/multimodal-deployment) | Vision-language model serving on OpenShift AI with KServe + vLLM. Supports LLaVA 1.5 7B and Qwen2.5-VL-7B on NVIDIA L40 GPUs, with automated model download and PVC-backed storage. |
 
 ### Computer Vision & Edge AI
 
