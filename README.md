@@ -22,14 +22,17 @@ I help organizations adopt and operationalize AI/ML solutions on OpenShift AI. M
 
 | Project | Description |
 |---|---|
+| [multi-agents](https://github.com/mouachan/multi-agents) | Multi-agent autonomous decision platform with ReAct orchestration for insurance claims and tender management. RAG + pgvector, vision-based OCR (Qwen2.5-VL), PII protection, and human-in-the-loop review. LlamaStack + Llama-Scout-17B on OpenShift. |
 | [agentic-claim-demo](https://github.com/mouachan/agentic-claim-demo) | Autonomous insurance claims processing using ReAct agents on OpenShift AI. Llama 3.3 70B + Gemma embeddings + pgvector + TrustyAI guardrails. Full reasoning traces, confidence scoring, and human-in-the-loop review. |
 | [edg-rag-demo](https://github.com/mouachan/edg-rag-demo) | Enterprise RAG deployment on OpenShift with KServe. Mistral 3 14B + Gemma 3 embeddings on NVIDIA L40 GPUs, with automated model lifecycle management. |
 | [multimodal-deployment](https://github.com/mouachan/multimodal-deployment) | Vision-language model serving on OpenShift AI with KServe + vLLM. Supports LLaVA 1.5 7B and Qwen2.5-VL-7B on NVIDIA L40 GPUs, with automated model download and PVC-backed storage. |
+| [rhoai-maas](https://github.com/mouachan/rhoai-maas) | Models-as-a-Service on OpenShift AI 3.3 with governed API gateway, tier-based rate limiting (Free/Premium/Enterprise), self-service React portal with PatternFly 6, and Grafana monitoring. Kuadrant + vLLM + Authorino authentication. |
 
 ### Computer Vision & Edge AI
 
 | Project | Description |
 |---|---|
+| [jetson-nano-ai-lab](https://github.com/mouachan/jetson-nano-ai-lab) | AI inference platform on Jetson Nano 4GB with real-time web dashboard (GPU/CPU/RAM monitoring), TensorRT FP16 fraud detection (~310 tx/s), CUDA-accelerated LLM via llama.cpp, and Cloudflare Tunnel access. |
 | [Demo-AI-Edge-Crazy-Train](https://github.com/Demo-AI-Edge-Crazy-Train) | AI-powered LEGO train demo showcasing edge inference on NVIDIA Jetson Orin Nano with Red Hat Device Edge. Real-time computer vision, MQTT/Kafka messaging, and microservices architecture. |
 | [train-occupancy-detection](https://github.com/mouachan/train-occupancy-detection) | Person detection system using YOLOv11 + Triton on OpenShift AI. Real-time video analysis with Streamlit dashboards, occupancy metrics, and autoscaling inference. |
 
